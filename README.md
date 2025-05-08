@@ -28,7 +28,7 @@ This project is perfect for practicing design system structure, component consis
 
 ## 🚀 Getting Started
 
-### 📦 1. Clone the repository
+### 📦 1. Clone the repository 
 
 Склонуй репозиторій до себе на комп'ютер:
 

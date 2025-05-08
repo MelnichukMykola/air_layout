@@ -240,10 +240,10 @@ h1 {
 .icon--logo {
   width: 46px;
   height: 28px;
-  background-image: url(/src/images/logo/logo.svg);
+  background-image: url(../images/logo/logo.svg);
 }
 .icon--menu {
-  background-image: url(/src/images/icons/menu-icon.svg);
+  background-image: url(../images/icons/menu-icon.svg);
 }
 @media (min-width: 1024px) {
   .icon--menu {
@@ -253,55 +253,64 @@ h1 {
 .icon--close {
   width: 18px;
   height: 18px;
-  background-image: url(/src/images/icons/close-icon.svg);
+  background-image: url(../images/icons/close-icon.svg);
 }
-.icon--arrow-blue, .icon--arrow-yellow, .icon--arrow-red, .icon--arrow-green {
+.icon--arrow-blue,
+.icon--arrow-yellow,
+.icon--arrow-red,
+.icon--arrow-green {
   width: 40px;
   height: 40px;
 }
 .icon--arrow-blue {
-  background-image: url(/src/images/icons/right-arrow-blue.svg);
+  background-image: url(../images/icons/right-arrow-blue.svg);
 }
 .icon--arrow-red {
-  background-image: url(/src/images/icons/right-arrow-red.svg);
+  background-image: url(../images/icons/right-arrow-red.svg);
 }
 .icon--arrow-yellow {
-  background-image: url(/src/images/icons/right-arrow-yellow.svg);
+  background-image: url(../images/icons/right-arrow-yellow.svg);
 }
 .icon--arrow-green {
-  background-image: url(/src/images/icons/right-arrow-green.svg);
+  background-image: url(../images/icons/right-arrow-green.svg);
 }
-.icon--commas-yellow, .icon--commas-red, .icon--commas-blue {
+.icon--commas-yellow,
+.icon--commas-red,
+.icon--commas-blue {
   margin-bottom: 8px;
   margin-inline: auto;
 }
 @media (min-width: 640px) {
-  .icon--commas-yellow, .icon--commas-red, .icon--commas-blue {
+  .icon--commas-yellow,
+  .icon--commas-red,
+  .icon--commas-blue {
     margin-bottom: 16px;
   }
 }
 @media (min-width: 1024px) {
-  .icon--commas-yellow, .icon--commas-red, .icon--commas-blue {
+  .icon--commas-yellow,
+  .icon--commas-red,
+  .icon--commas-blue {
     margin-bottom: 8px;
   }
 }
 .icon--commas-yellow {
-  background-image: url(/src/images/icons/commas-yellow.svg);
+  background-image: url(../images/icons/commas-yellow.svg);
 }
 .icon--commas-blue {
-  background-image: url(/src/images/icons/commas-blue.svg);
+  background-image: url(../images/icons/commas-blue.svg);
 }
 .icon--commas-red {
-  background-image: url(/src/images/icons/commas-red.svg);
+  background-image: url(../images/icons/commas-red.svg);
 }
 .icon--facebook {
-  background-image: url(/src/images/icons/facebook-icon.svg);
+  background-image: url(../images/icons/facebook-icon.svg);
 }
 .icon--twitter {
-  background-image: url(/src/images/icons/twitter-icon.svg);
+  background-image: url(../images/icons/twitter-icon.svg);
 }
 .icon--instagram {
-  background-image: url(/src/images/icons/insta-icon.svg);
+  background-image: url(../images/icons/insta-icon.svg);
 }
 .icon--footer {
   width: 32px;
@@ -475,10 +484,10 @@ h1 {
   display: none;
 }
 .swiper__button--prev {
-  background-image: url(/src/images/slider/arrow-left.svg);
+  background-image: url(../images/slider/arrow-left.svg);
 }
 .swiper__button--next {
-  background-image: url(/src/images/slider/arrow-right.svg);
+  background-image: url(../images/slider/arrow-right.svg);
 }
 .swiper__title {
   font-family: Poppins, serif;
@@ -1138,7 +1147,7 @@ h1 {
 }
 @media (min-width: 640px) {
   .vision-passion-results {
-    background-image: url(/src/images/vision/vision-tablet-bg.png);
+    background-image: url(../images/vision/vision-tablet-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1146,7 +1155,7 @@ h1 {
 }
 @media (min-width: 1024px) {
   .vision-passion-results {
-    background-image: url(/src/images/vision/vision-background.png);
+    background-image: url(../images/vision/vision-background.png);
     background-size: 1460px auto;
   }
 }
@@ -1358,10 +1367,13 @@ h1 {
     margin-bottom: 48px;
   }
 }
-.form__element:focus, .form__element:hover {
+.form__element:focus,
+.form__element:hover {
   border-color: #b2dcff;
 }
-.form__element:-webkit-autofill, .form__element:-webkit-autofill:hover, .form__element:-webkit-autofill:focus {
+.form__element:-webkit-autofill,
+.form__element:-webkit-autofill:hover,
+.form__element:-webkit-autofill:focus {
   border-bottom: 1px solid #000 !important;
   -webkit-box-shadow: 0 0 0 1000px #028aff inset !important;
   transition: background-color 5000s ease-in-out 0s !important;
